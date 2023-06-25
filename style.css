@@ -43,7 +43,7 @@
 }
 
 .top-container .title p {
-    font-weight: 500;
+    font-weight: 700;
     color: var(--light-laveder);
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -112,6 +112,8 @@
 
 .bottom-container .summary h2 {
     font-size: 1rem;
+    color: var(--dark-gray-blue);
+    font-weight: 700;
 }
 
 .summary .skills {
@@ -192,4 +194,89 @@
     width: 100%;
     font-weight: 700;
     border-radius: 50px;
+}
+
+@media screen and (min-width: 1280px) {
+    
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40%;
+        height: 60%;
+        margin-inline: auto;
+        box-shadow: 5px 8px 8px rgba(0, 0, 0, 0.055);
+        border-radius: 0 25px 25px 0;
+        
+    }
+
+    .wrapper .top-container{
+        width: 50%;
+        height: 100%;
+        border-radius: 25px;
+        
+    }
+
+    .top-container .circle {
+        width: 50%;
+    }
+
+    .top-container .score p {
+        font-size: 11px;
+        font-weight: 700;
+    }
+
+    .wrapper .bottom-container {
+        width: 50%;
+        height: 100%;
+        padding: 0.5rem;
+        
+        
+    }
+
+    .summary .skills {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .summary .skills .reaction h3,
+    .summary .skills .memory h3,
+    .summary .skills .verbal h3,
+    .summary .skills .visual h3 {
+        font-size: 13px;
+        margin-right: -7rem;
+        
+    }
+
+    .summary .skills .reaction p,
+    .summary .skills .memory p,
+    .summary .skills .verbal p,
+    .summary .skills .visual p{
+        font-size: 13px;
+        
+    }
+
+    .summary .button button {
+        padding: 0.5rem;
+        margin-top: 0.5rem;
+        cursor: pointer;
+        transition: all 0.3s;
+    }
+
+    .summary .button button:active {
+        background: linear-gradient(to bottom, var(--grad-slate-blue), var(--grad-royal-blue));
+        
+    }
+
+
 }
