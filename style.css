@@ -154,6 +154,14 @@
     
 }
 
+.summary .skills p {
+    color: var(--dark-gray-blue);
+}
+
+.summary .skills span {
+    font-weight: 800;
+}
+
 .summary .skills .reaction h3 {
     color: var(--red);
 }
