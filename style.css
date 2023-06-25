@@ -281,3 +281,133 @@
 
 }
 
+@media screen and (min-width: 1920px){
+    body {
+        min-height: 100vh;
+        font-family: "Hanken Grotesk", Arial, Helvetica, sans-serif;
+        background-color: var(--neutral-pale-blue);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.6rem;
+        
+    }
+
+    .wrapper {
+        border-radius: 2rem;
+        display: flex;
+        box-shadow: 0 1rem 2.8rem hsla(0, 0%, 0%, .20);
+        width: 736px;
+        height: 512px;
+    }
+
+    .top-container {
+        width: 37.5rem;
+        height: 35.6rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        background-image: linear-gradient(var(--gradient-bg-light-slate-blue), var(--gradient-bg-light-royal-blue));
+        padding: 3rem 6rem;
+        color: #fff;
+        border-radius: 0 0 2rem 2rem;
+    }
+
+    .top-container .title {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .top-container .circle {
+        width: 200px;
+        height: 200px;
+    }
+
+    .top-container .circle h1 {
+        font-size: 70px;
+        margin-top: 0.7rem;
+    }
+
+    .top-container .circle p {
+        font-size: 16px;
+    }
+
+    .top-container .score h2 {
+        font-size: 32px;
+        
+    }
+
+    .top-container .score {
+        margin-top: 2rem;
+    }
+
+    .top-container .score p {
+        font-size: 16px;
+        width: 248px;
+        height: 63px;
+       margin-top: 2rem;
+    }
+
+    .bottom-container .summary{
+        padding: 40px;
+    }
+
+    .bottom-container .summary h2 {
+        font-size: 24px;
+        font-weight: 800;
+    }
+
+    .bottom-container .skills {
+        width: 254px;
+        height: 56px;
+        margin-top: 2rem;
+        
+        
+    }
+
+
+    .bottom-container .skills .reaction,
+    .bottom-container .skills .memory,
+    .bottom-container .skills .verbal,
+    .bottom-container .skills .visual {
+        margin-bottom: 1.5rem;
+        width: 254px;
+        height: 56px;
+        padding: 1rem;
+    }
+
+    .bottom-container .skills .reaction h3,
+    .bottom-container .skills .memory h3,
+    .bottom-container .skills .verbal h3,
+    .bottom-container .skills .visual h3 {
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .bottom-container .skills .reaction span,
+    .bottom-container .skills .memory span,
+    .bottom-container .skills .verbal span,
+    .bottom-container .skills .visual span {
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .bottom-container .skills .reaction p,
+    .bottom-container .skills .memory p,
+    .bottom-container .skills .verbal p,
+    .bottom-container .skills .visual p {
+        font-size: 16px;
+    }
+
+    .bottom-container .button {
+        margin-top: 16rem;
+
+        
+    }
+
+    .bottom-container .button button {
+        font-size: 18px;
+        height: 56px;
+    }
+}
