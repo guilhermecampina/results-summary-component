@@ -27,7 +27,7 @@
 
 
 .wrapper {
-    height: auto;
+    height: 100vh;
 }
 
 .wrapper .top-container {
@@ -280,3 +280,4 @@
 
 
 }
+
